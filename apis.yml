@@ -1,7 +1,30 @@
 aid: pickle-robot-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pickle-robot-company.png
 name: Pickle Robot Company
-description: Pickle Robot Company is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pickle Robot Company builds Physical AI robots for supply chain automation,
+  focused on autonomously unloading non-palletized goods (floor-loaded boxes and
+  parcels) from trucks and shipping containers at warehouse speed. Its Dill
+  Autonomy Engine (DAE) combines classical optimal control with generative AI and
+  machine vision so fleets improve continuously across deployments, with
+  operational dashboards reporting picks-per-hour, unload times, and package-mix
+  analysis. Customers include UPS and Cintas. Headquartered in the Boston,
+  Massachusetts area, Pickle Robot is a DCVC portfolio company backed by investors
+  including Teradyne Robotics Ventures, Toyota Ventures, Catapult Ventures,
+  Hyperplane, and VersionOne. The company publishes no public developer API,
+  documentation portal, or SDK; its GitHub organization hosts robotics tooling
+  (mostly ROS/SLAM forks) rather than API client libraries.
 url: https://raw.githubusercontent.com/api-evangelist/pickle-robot-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Physical AI
+- Supply Chain
+- Logistics
+- Warehouse Automation
+- Artificial Intelligence
+- Autonomous Systems
 apis: []
+common:
+- type: Website
+  url: https://www.picklerobot.com/
+- type: GitHubOrganization
+  url: https://github.com/Pickle-Robot
+- type: Technology
+  url: https://www.picklerobot.com/technology
+- type: Products
+  url: https://www.picklerobot.com/products
+- type: Customers
+  url: https://www.picklerobot.com/customers
+- type: Company
+  url: https://www.picklerobot.com/company
+- type: Contact
+  url: https://www.picklerobot.com/contact
+- type: Resources
+  url: https://www.picklerobot.com/resources
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
